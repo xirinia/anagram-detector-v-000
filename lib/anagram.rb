@@ -17,7 +17,7 @@ class Anagram
           new_array << words
         elsif words.split('').sort.join == @ba.split('').sort.join
           new_array << words
-        elsif if words.split('').sort.join == @listen.split('').sort.join
+        elsif words.split('').sort.join == @listen.split('').sort.join
           new_array << words
         end
       end
