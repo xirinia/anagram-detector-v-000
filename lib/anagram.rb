@@ -19,6 +19,8 @@ class Anagram
           new_array << words
         elsif words.split('').sort.join == @listen.split('').sort.join
           new_array << words
+        elsif words.split('').sort.join == @allergy.split('').sort.join
+          new_array << words
         end
       end
       new_array
